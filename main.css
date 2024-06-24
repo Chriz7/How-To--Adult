@@ -1,0 +1,33 @@
+html{font-size: 1.5em}
+
+/* Using the color palette [071952, 088395, 37B7C3, EBE4F6] */
+
+body{
+    background-color: #041035;
+    color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+.sectioncontainer{
+    border: 5px solid #EBE4F6;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.sectionlink {
+    border: 2px solid #EBE4F6;
+    border-radius: 10px;
+    background-color: #37B7C3;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sectionlink:hover {
+    background-color: #088395; /* Change background color on hover */
+}
