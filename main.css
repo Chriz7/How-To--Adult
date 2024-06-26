@@ -14,6 +14,7 @@ h1 {
 .sectioncontainer{
     border: 5px solid #EBE4F6;
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     justify-content: space-around;
 }
@@ -26,6 +27,9 @@ h1 {
     margin-bottom: 5px;
     padding-left: 5px;
     padding-right: 5px;
+    max-width: 230px;
+    min-width: 110px;
+
 }
 
 .sectionlink:hover {
