@@ -2,7 +2,7 @@
 
 /* Base Code. Optimized for Mobile Devices */
 
-html{font-size: 24px}
+html{font-size: 48px}
 
 
 body{
@@ -32,7 +32,7 @@ h1 {
 }
 
 .lessoncontainer .description {
-    font-size: .4rem;
+    font-size: .2rem;
 }
 
 .imageheader {
