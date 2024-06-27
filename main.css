@@ -1,6 +1,11 @@
-html{font-size: 1.5em}
-
 /* Using the color palette [071952, 088395, 37B7C3, EBE4F6] */
+
+/* Mobile Code */
+
+@media (max-width: 480px){
+
+    html{font-size: 20px}
+
 
 body{
     background-color: #041035;
@@ -13,19 +18,24 @@ body{
 
 h1 {
     text-align: center;
+    font-size: 2.5rem;
 }
 
-#line {
-    color: red;
-}
-
-.lessonheading {
+.lessoncontainer .lessonheading {
     text-decoration: underline;
     margin-bottom: 0;
+    text-wrap: nowrap;
+    font-size: 2em;
+}
+
+.lessoncontainer .description {
+    font-size: 1.2rem;
 }
 
 .imageheader {
     margin-bottom: 0;
+    text-wrap: nowrap;
+    font-size: 1.2rem;
 }
 
 .description, image {
@@ -68,3 +78,89 @@ h1 {
 .sectionlink:hover {
     background-color: #088395; /* Change background color on hover */
 }
+
+    
+}
+
+
+/* Desktop Code */
+
+@media (min-width: 451px){
+
+html{font-size: 16px}
+
+
+body{
+    background-color: #041035;
+    color: whitesmoke;
+}
+
+.sectioncontainer p {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.lessoncontainer .lessonheading {
+    text-decoration: underline;
+    margin-bottom: 0;
+    text-wrap: nowrap;
+    font-size: 2em;
+}
+
+.lessoncontainer .description {
+    font-size: 1.2rem;
+}
+
+.imageheader {
+    margin-bottom: 0;
+    text-wrap: nowrap;
+    font-size: 1.2rem;
+}
+
+.description, image {
+    margin-top: 0;
+}
+
+.sectioncontainer{
+    border: 2px solid #EBE4F6;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.sectionlink {
+    border: 2px solid #EBE4F6;
+    border-radius: 10px;
+    background-color: #37B7C3;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 230px;
+    min-width: 110px;
+
+}
+
+.lessoncontainer{
+    border: 2px solid #EBE4F6;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.sectionlink:hover {
+    background-color: #088395; /* Change background color on hover */
+}
+}
+
+
