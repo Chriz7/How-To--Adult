@@ -1,10 +1,8 @@
 /* Using the color palette [071952, 088395, 37B7C3, EBE4F6] */
 
-/* Mobile Code */
+/* Base Code. Optimized for Mobile Devices */
 
-@media (max-width: 480px){
-
-    html{font-size: 20px}
+html{font-size: 16px}
 
 
 body{
@@ -23,24 +21,24 @@ body{
 
 h1 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .lessoncontainer .lessonheading {
     text-decoration: underline;
     margin-bottom: 0;
     text-wrap: nowrap;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .lessoncontainer .description {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .imageheader {
     margin-bottom: 0;
     text-wrap: nowrap;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .description, image {
@@ -55,6 +53,10 @@ h1 {
     gap: 10px;
     justify-content: space-around;
     margin-bottom: 10px;
+}
+
+.sectioncontainer a div p {
+    font-size: 1.2rem;
 }
 
 .sectionlink {
@@ -84,9 +86,6 @@ h1 {
     background-color: #088395; /* Change background color on hover */
 }
 
-    
-}
-
 
 /* Desktop Code */
 
@@ -107,6 +106,10 @@ body{
 h1 {
     text-align: center;
     font-size: 2.5rem;
+}
+
+.sectioncontainer a div p {
+    font-size: 1.2rem;
 }
 
 .lessoncontainer .lessonheading {
