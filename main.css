@@ -12,6 +12,11 @@ body{
     color: whitesmoke;
 }
 
+.versionnumber {
+    display: inline-block;
+    font-size: .8rem;
+}
+
 .sectioncontainer p {
     color: black;
 }
