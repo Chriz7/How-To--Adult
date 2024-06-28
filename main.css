@@ -15,8 +15,10 @@ body{
     font-size: .8rem;
 }
 
+/* these are inside the blue navs buttons at the top */
 .sectioncontainer p {
     color: black;
+    font-size: 1.2rem;
 }
 
 h1 {
@@ -32,7 +34,7 @@ h1 {
 }
 
 .lessoncontainer .description {
-    font-size: .5rem;
+    font-size: .8rem;
 }
 
 .imageheader {
@@ -55,10 +57,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* these are inside the blue navs buttons at the top */
-.sectioncontainer a div p {
-    font-size: 1.2rem;
-}
 
 .sectionlink {
     border: 2px solid #EBE4F6;
@@ -68,7 +66,6 @@ h1 {
     margin-bottom: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    max-width: 230px;
     min-width: 110px;
 
 }
@@ -90,7 +87,7 @@ h1 {
 
 /* Desktop Code */
 
-@media (min-width: 1500px){
+@media (min-width: 1600px){
 
 html{font-size: 16px}
 
