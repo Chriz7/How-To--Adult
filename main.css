@@ -19,6 +19,7 @@ body{
 .sectioncontainer p {
     color: black;
     font-size: 1.2rem;
+    text-wrap: nowrap;
 }
 
 h1 {
