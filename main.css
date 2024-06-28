@@ -16,10 +16,10 @@ body{
     font-size: .8rem;
 }
 
-/* these are inside the blue navs buttons at the top */
+/* these are inside the blue navs buttons at the top  */
 .sectioncontainer p {
     color: black;
-    font-size: .8rem;
+    font-size: 1rem;
     text-wrap: nowrap;
 }
 
