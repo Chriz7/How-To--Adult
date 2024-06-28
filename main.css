@@ -6,8 +6,9 @@ html{font-size: 30px}
 
 
 body{
-    background-color: #041035;
-    color: whitesmoke;
+    background-color: #EBE4F6;
+    color: #071952;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .versionnumber {
@@ -29,7 +30,6 @@ h1 {
 
 .lessoncontainer .lessonheading {
     margin-bottom: 0;
-    text-decoration: underline;
     text-wrap: nowrap;
     font-size: 2em;
 }
@@ -49,7 +49,6 @@ h1 {
 }
 
 .sectioncontainer{
-    border: 2px solid #EBE4F6;
     border-radius: 3px;
     display: flex;
     flex-wrap: wrap;
@@ -60,9 +59,9 @@ h1 {
 
 
 .sectionlink {
-    border: 2px solid #EBE4F6;
+    border: 2px solid #071952;
     border-radius: 10px;
-    background-color: #37B7C3;
+    background-color: #088395;
     margin-top: 5px;
     margin-bottom: 5px;
     padding-left: 5px;
@@ -72,17 +71,13 @@ h1 {
 }
 
 .lessoncontainer{
-    border: 2px solid #EBE4F6;
+    border: 2px solid #071952;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 10px;
-}
-
-.sectionlink:hover {
-    background-color: #088395; /* Change background color on hover */
 }
 
 
@@ -94,8 +89,9 @@ html{font-size: 16px}
 
 
 body{
-    background-color: #041035;
-    color: whitesmoke;
+    background-color: #EBE4F6;
+    color: #071952;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .sectioncontainer p {
@@ -112,7 +108,6 @@ h1 {
 }
 
 .lessoncontainer .lessonheading {
-    text-decoration: underline;
     margin-bottom: 0;
     text-wrap: nowrap;
     font-size: 2em;
@@ -133,7 +128,6 @@ h1 {
 }
 
 .sectioncontainer{
-    border: 2px solid #EBE4F6;
     border-radius: 3px;
     display: flex;
     flex-wrap: wrap;
@@ -143,9 +137,9 @@ h1 {
 }
 
 .sectionlink {
-    border: 2px solid #EBE4F6;
+    border: 2px solid #071952;
     border-radius: 10px;
-    background-color: #37B7C3;
+    background-color: #088395;
     margin-top: 5px;
     margin-bottom: 5px;
     padding-left: 5px;
@@ -156,7 +150,7 @@ h1 {
 }
 
 .lessoncontainer{
-    border: 2px solid #EBE4F6;
+    border: 2px solid #071952;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
