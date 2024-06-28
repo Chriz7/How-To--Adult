@@ -19,7 +19,7 @@ body{
 /* these are inside the blue navs buttons at the top */
 .sectioncontainer p {
     color: black;
-    font-size: 1.2rem;
+    font-size: .8rem;
     text-wrap: nowrap;
 }
 
@@ -57,11 +57,10 @@ h1 {
     margin-bottom: 10px;
 }
 
-
 .sectionlink {
     border: 2px solid #071952;
-    border-radius: 10px;
-    background-color: #088395;
+    border-radius: 80px;
+    background-color: #3ABEF9;
     margin-top: 5px;
     margin-bottom: 5px;
     padding-left: 5px;
@@ -79,89 +78,3 @@ h1 {
     text-align: center;
     gap: 10px;
 }
-
-
-/* Desktop Code */
-
-@media (min-width: 1600px){
-
-html{font-size: 16px}
-
-
-body{
-    background-color: #EBE4F6;
-    color: #071952;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.sectioncontainer p {
-    color: black;
-}
-
-h1 {
-    text-align: center;
-    font-size: 2.5rem;
-}
-
-.sectioncontainer a div p {
-    font-size: 1.2rem;
-}
-
-.lessoncontainer .lessonheading {
-    margin-bottom: 0;
-    text-wrap: nowrap;
-    font-size: 2em;
-}
-
-.lessoncontainer .description {
-    font-size: 1.2rem;
-}
-
-.imageheader {
-    margin-bottom: 0;
-    text-wrap: nowrap;
-    font-size: 1.2rem;
-}
-
-.description, image {
-    margin-top: 0;
-}
-
-.sectioncontainer{
-    border-radius: 3px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-around;
-    margin-bottom: 10px;
-}
-
-.sectionlink {
-    border: 2px solid #071952;
-    border-radius: 10px;
-    background-color: #088395;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    max-width: 230px;
-    min-width: 110px;
-
-}
-
-.lessoncontainer{
-    border: 2px solid #071952;
-    border-radius: 3px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 10px;
-}
-
-.sectionlink:hover {
-    background-color: #088395; /* Change background color on hover */
-}
-}
-
-
