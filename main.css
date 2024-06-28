@@ -60,13 +60,12 @@ h1 {
 .sectionlink {
     border: 2px solid #071952;
     border-radius: 80px;
-    background-color: #3ABEF9;
+    background-color: #83d6fc;
     margin-top: 5px;
     margin-bottom: 5px;
     padding-left: 5px;
     padding-right: 5px;
     min-width: 110px;
-
 }
 
 .lessoncontainer{
